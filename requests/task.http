@@ -1,0 +1,36 @@
+
+GET http://localhost:3000/api/tasks
+
+###
+GET http://localhost:3000/api/tasks/5ff31d9edaa65305c077a981
+
+###
+GET http://localhost:3000/api/tasks/like/Urca
+
+###
+GET http://localhost:3000/api/tasks/done
+
+
+###
+DELETE http://localhost:3000/api/tasks/5ff31a8411d8d32df8b49999
+
+###
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title" : "Hacer sitio web en wordpress",
+    "description" : "Prova per titolo esistente"
+   
+    
+}
+
+###
+PUT  http://localhost:3000/api/tasks/5ff22ad83273c03e10556e37
+Content-Type: application/json
+
+{
+    "title" : "Canta che ti passa Urca"
+    //"description" : "Prova per test 2-bis",
+    //"done" : true
+}

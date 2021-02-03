@@ -1,0 +1,8 @@
+# environment variable
+
+.env
+#node
+node_modules
+
+#eseguibile dist
+dist
